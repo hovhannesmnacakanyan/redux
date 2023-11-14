@@ -1,6 +1,6 @@
 import { useState, ChangeEvent, Dispatch } from "react";
 import { useDispatch } from "react-redux";
-import { booksSlice } from "../store/books";
+import { booksSlice } from "../../store/books";
 
 export const BookForm = () => {
   const dispatch = useDispatch();

@@ -1,4 +1,4 @@
-import { IBook } from "../types/books";
+import { IBook } from "../../types/books";
 
 interface IBookProps {
   book: IBook;
